@@ -41,7 +41,7 @@ export function HeroSection({id}: {id: string}) {
                     </span>
                 </div>
 
-                <div className="imageBackfround"><img src="./logoBack.svg" alt="" /></div>
+                <div className="imageBackfround"><img src="./icon/logoBack.svg" alt="" /></div>
                 
                 <div className="heroSectionTitle">
                     <h1>A linguagem focada na <br/> <AnimatedText/></h1>
@@ -53,7 +53,7 @@ export function HeroSection({id}: {id: string}) {
                     </div>
                     <div className="madeBy">
                         <p>Feito Por</p>
-                        <img src="./logoAmbar.svg" alt="" /> 
+                        <img src="./icon/logoAmbar.svg" alt="" /> 
                         <strong>Ambar</strong>
                     </div>
                 </div>

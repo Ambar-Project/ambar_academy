@@ -1,12 +1,19 @@
+import { HeroSection } from "@/components/HomePage/heroSection";
 import "./home.css";
 import { Metadata } from "next";
+import { PitchSection } from "@/components/HomePage/pitchSection";
+import { ScrollContainer } from "@/components/HomePage/scrollContainer";
+import { SupportSection } from "@/components/HomePage/supportSection";
 
 
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <h1>SaLVE</h1>
+    <div className="home">
+      <HeroSection id="home"/>
+      <PitchSection id="pitch"/>
+      <ScrollContainer id="ecossistema"/>
+      <SupportSection id="suporte"/>
     </div>
   );
 }

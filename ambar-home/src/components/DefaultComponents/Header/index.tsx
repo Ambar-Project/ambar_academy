@@ -43,11 +43,11 @@ const scrollToSection = (id: string) => {
 
         <div className="header_main">
           <ul>
-            <li className="link_item"><button onClick={() => scrollToSection("home")}>Home</button></li>
-            <li className="link_item"><button onClick={() => scrollToSection("pitch")}>Pitch</button></li>
-            <li className="link_item"><button onClick={() => scrollToSection("ecossistema")}>Ecossistema</button></li>
-            <li className="link_item"><button onClick={() => scrollToSection("dashboard")}>Dashboard</button></li>
-            <li className="link_item"><button onClick={() => scrollToSection("suporte")}>Suporte</button></li>
+            <li className="link_item"onClick={() => scrollToSection("home")}>Home</li>
+            <li className="link_item" onClick={() => scrollToSection("pitch")}>Pitch</li>
+            <li className="link_item" onClick={() => scrollToSection("ecossistema")}>Ecossistema</li>
+            <li className="link_item" onClick={() => scrollToSection("dashboard")}>Dashboard</li>
+            <li className="link_item" onClick={() => scrollToSection("suporte")}>Suporte</li>
           </ul>
         </div>
 
@@ -62,7 +62,7 @@ const scrollToSection = (id: string) => {
           <div className="dropdown">
             <ul className="dropdown-menu">
               <li>
-                <img src={"./bandeira.svg"} alt="Bandeira do Brasil" /> BR
+                <img src={"./icon/bandeira.svg"} alt="Bandeira do Brasil" /> BR
               </li>
             </ul>
           </div>
